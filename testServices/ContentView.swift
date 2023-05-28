@@ -34,6 +34,15 @@ struct ContentView: View {
                                 }
                             }
                         }
+                        NavigationLink(destination: Alamofire() ) {
+                            VStack(alignment: .leading, spacing: 20 ) {
+                                HStack {
+                                    Text("URLSession").font(.subheadline)
+                                    Spacer()
+                                    Text("Test").font(.subheadline)
+                                }
+                            }
+                        }
                         
                         
                     } // group
