@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF0E93EC2A23ED7600DA52DA /* UrlsessionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93EB2A23ED7600DA52DA /* UrlsessionTest.swift */; };
+		EF0E93EF2A23F08500DA52DA /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93EE2A23F08500DA52DA /* Networking.swift */; };
 		EF9AB8C42A23E70200A765EB /* testServicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB8C32A23E70200A765EB /* testServicesApp.swift */; };
 		EF9AB8C62A23E70200A765EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB8C52A23E70200A765EB /* ContentView.swift */; };
 		EF9AB8C82A23E70300A765EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB8C72A23E70300A765EB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		EF0E93EB2A23ED7600DA52DA /* UrlsessionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsessionTest.swift; sourceTree = "<group>"; };
+		EF0E93EE2A23F08500DA52DA /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		EF9AB8C02A23E70200A765EB /* testServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9AB8C32A23E70200A765EB /* testServicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testServicesApp.swift; sourceTree = "<group>"; };
 		EF9AB8C52A23E70200A765EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EF0E93ED2A23F06D00DA52DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E93EE2A23F08500DA52DA /* Networking.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		EF9AB8B72A23E70200A765EB = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		EF9AB8C22A23E70200A765EB /* testServices */ = {
 			isa = PBXGroup;
 			children = (
+				EF0E93ED2A23F06D00DA52DA /* Classes */,
 				EF0E93EA2A23ED5E00DA52DA /* Views */,
 				EF9AB8C32A23E70200A765EB /* testServicesApp.swift */,
 				EF9AB8C52A23E70200A765EB /* ContentView.swift */,
@@ -153,6 +164,7 @@
 				EF9AB8C62A23E70200A765EB /* ContentView.swift in Sources */,
 				EF0E93EC2A23ED7600DA52DA /* UrlsessionTest.swift in Sources */,
 				EF9AB8C42A23E70200A765EB /* testServicesApp.swift in Sources */,
+				EF0E93EF2A23F08500DA52DA /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

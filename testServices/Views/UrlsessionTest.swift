@@ -9,7 +9,12 @@ import SwiftUI
 
 struct UrlsessionTest: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("UrlsessionTest !!! ")
+      Spacer()
+            .onAppear(){
+            let networking = Networking()
+                networking.fetchData()
+            }
     }
 }
 
