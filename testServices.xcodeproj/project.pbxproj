@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF0E93EC2A23ED7600DA52DA /* Urlsession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93EB2A23ED7600DA52DA /* Urlsession.swift */; };
+		EF0E93EC2A23ED7600DA52DA /* UrlsessionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93EB2A23ED7600DA52DA /* UrlsessionTest.swift */; };
 		EF9AB8C42A23E70200A765EB /* testServicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB8C32A23E70200A765EB /* testServicesApp.swift */; };
 		EF9AB8C62A23E70200A765EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB8C52A23E70200A765EB /* ContentView.swift */; };
 		EF9AB8C82A23E70300A765EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB8C72A23E70300A765EB /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF0E93EB2A23ED7600DA52DA /* Urlsession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urlsession.swift; sourceTree = "<group>"; };
+		EF0E93EB2A23ED7600DA52DA /* UrlsessionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsessionTest.swift; sourceTree = "<group>"; };
 		EF9AB8C02A23E70200A765EB /* testServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9AB8C32A23E70200A765EB /* testServicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testServicesApp.swift; sourceTree = "<group>"; };
 		EF9AB8C52A23E70200A765EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		EF0E93EA2A23ED5E00DA52DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EF0E93EB2A23ED7600DA52DA /* Urlsession.swift */,
+				EF0E93EB2A23ED7600DA52DA /* UrlsessionTest.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9AB8C62A23E70200A765EB /* ContentView.swift in Sources */,
-				EF0E93EC2A23ED7600DA52DA /* Urlsession.swift in Sources */,
+				EF0E93EC2A23ED7600DA52DA /* UrlsessionTest.swift in Sources */,
 				EF9AB8C42A23E70200A765EB /* testServicesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

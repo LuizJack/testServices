@@ -25,15 +25,15 @@ struct ContentView: View {
                 
                 List {
                     Group {
-                        //                        NavigationLink(destination: GPSView() ) {
-                        //                            VStack(alignment: .leading, spacing: 20 ) {
-                        //                                  HStack {
-                        //                                      Text("GPS").font(.subheadline)
-                        //                                      Spacer()
-                        //                                      Text("Test").font(.subheadline)
-                        //                                  }
-                        //                            }
-                        //                        }
+                        NavigationLink(destination: UrlsessionTest() ) {
+                            VStack(alignment: .leading, spacing: 20 ) {
+                                HStack {
+                                    Text("URLSession").font(.subheadline)
+                                    Spacer()
+                                    Text("Test").font(.subheadline)
+                                }
+                            }
+                        }
                         
                         
                     } // group

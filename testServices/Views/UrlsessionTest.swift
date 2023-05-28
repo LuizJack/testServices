@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Urlsession: View {
+struct UrlsessionTest: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Urlsession_Previews: PreviewProvider {
+struct UrlsessionTest_Previews: PreviewProvider {
     static var previews: some View {
-        Urlsession()
+        UrlsessionTest()
     }
 }
